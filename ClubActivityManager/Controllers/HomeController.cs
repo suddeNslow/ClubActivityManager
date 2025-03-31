@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using ClubActivityManager.Models;
 
 namespace ClubActivityManager.Controllers;
-
+ciocan
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
