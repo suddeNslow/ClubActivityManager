@@ -15,11 +15,16 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        return RedirectToAction("Landing");
     }
 
     public IActionResult Privacy()
     {
         return View();
+    }
+
+    public IActionResult Landing()
+    {
+        return Redirect("/pages/landing.html");
     }
 }
