@@ -1,30 +1,27 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using ClubActivityManager.Models;
+using Microsoft.Extensions.Logging;
 
-namespace ClubActivityManager.Controllers;
-//ciocan
-public class HomeController : Controller
+namespace ClubActivityManager.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
+        private readonly ILogger<HomeController> _logger;
 
-    public IActionResult Index()
-    {
-        return RedirectToAction("Landing");
-    }
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        // Serves Views/Home/Index.cshtml
+        public IActionResult Index()
+        {
+            return View(); // No redirect
+        }
 
-    public IActionResult Landing()
-    {
-        return Redirect("/pages/landing.html");
+        public IActionResult Login()
+        {
+            return View();
+        }
+
     }
 }

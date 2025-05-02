@@ -1,31 +1,278 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    font-family: 'Patrick Hand', cursive;
+    margin: 0;
+    background-color: #efefef;
+    color: #000;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+.form-floating > .form-control-plaintext::placeholder,
+.form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.form-floating > .form-control-plaintext:focus::placeholder,
+.form-floating > .form-control:focus::placeholder {
+    text-align: start;
 }
+
+header {
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid yellow; /* Added yellow border */
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    gap: 1rem;
+    justify-content: center;
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+
+
+
+.club-icon {
+    width: 60px;
+    height: auto;
+}
+
+.logo-text h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    line-height: 1.2;
+    color: black;
+}
+
+.logo-text span {
+    font-size: 2rem;
+    display: block;
+    color: #d62828; /* Optional red for emphasis */
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+    nav a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.2rem;
+        position: relative;
+    }
+
+        nav a.active {
+            color: #f1d928;
+        }
+
+.member-login-container {
+    margin-top: 1rem;
+}
+
+.login-button {
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-family: 'Patrick Hand', cursive;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+main {
+    background-color: #efefef;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-content {
+    background-color: #dfc91f;
+    max-width: 1100px;
+    display: flex;
+    gap: 2rem;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+.landing-text {
+    flex: 1;
+    color: #000;
+    font-size: 1.1rem;
+}
+
+.landing-image {
+    flex: 1;
+    position: relative;
+}
+
+    .landing-image img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+.image-caption {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    max-width: 200px;
+}
+
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1rem;
+    background-color: #efefef;
+    gap: 2rem;
+}
+
+.login-left {
+    flex: 1;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.speech-image {
+    width: 300px;
+    max-width: 100%;
+}
+
+.login-text {
+    position: absolute;
+    color: black;
+    font-size: 1.3rem;
+    max-width: 200px;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.login-btn {
+    background-color: #dfc91f;
+    color: black;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-family: 'Patrick Hand', cursive;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.forgot-password {
+    color: #dfc91f;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+    font-family: 'Patrick Hand', cursive;
+}
+
+/* === Footer Style Update === */
+
+.club-footer {
+    background-color: #efefef;
+    border-top: 1px solid #ddd;
+    padding: 2rem 1rem 1rem;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-left p {
+    margin: 0;
+    line-height: 1.2;
+    font-size: 1.2rem;
+}
+
+.footer-left span {
+    font-size: 1.4rem;
+}
+
+.footer-right h6 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-right li {
+    margin-bottom: 0.3rem;
+}
+
+.footer-right a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 0.95rem;
+}
+ 
