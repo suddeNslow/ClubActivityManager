@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ClubActivityManager.Models.Event>
+
+<h2>Browse Events</h2>
+
+<a asp-action="Create" class="btn btn-success">Create Event</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Location</th>
+            <th>Date</th>
+            <th>Resources Reserved</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.Description</td>
+                <td>@item.Location</td>
+                <td>@item.DateTime.ToString("g")</td>
+                <td>
+                    @if (item.ResourceReservations != null && item.ResourceReservations.Any())
+                    {
+                        <ul>
+                            @foreach (var rr in item.ResourceReservations)
+                            {
+                                <li>@rr.Resource?.Name (@rr.StartTime.ToShortTimeString() - @rr.EndTime.ToShortTimeString())</li>
+                            }
+                        </ul>
+                    }
+                    else
+                    {
+                        <span>No resources</span>
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

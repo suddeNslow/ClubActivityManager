@@ -4,6 +4,7 @@ using ArtClubApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClubActivityManager.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250505182805_SeconCreate")]
+    partial class SeconCreate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -166,29 +169,6 @@ namespace ClubActivityManager.Migrations
                     b.HasKey("ResourceId");
 
                     b.ToTable("Resources");
-
-                    b.HasData(
-                        new
-                        {
-                            ResourceId = 1,
-                            Availability = "available",
-                            Name = "Projector",
-                            Type = "Electronics"
-                        },
-                        new
-                        {
-                            ResourceId = 2,
-                            Availability = "available",
-                            Name = "Meeting Room A",
-                            Type = "Room"
-                        },
-                        new
-                        {
-                            ResourceId = 3,
-                            Availability = "available",
-                            Name = "Sound System",
-                            Type = "Audio"
-                        });
                 });
 
             modelBuilder.Entity("ClubActivityManager.Models.ResourceReservation", b =>
