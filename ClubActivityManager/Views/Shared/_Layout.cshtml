@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ClubActivityManager</title>
-    <link rel="stylesheet" href="~/css/landing.css" asp-append-version="true" />
+    @*@<link rel="stylesheet" href="~/css/landing.css" asp-append-version="true" />*@
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -21,7 +21,7 @@
         <nav>
             <a asp-controller="Home" asp-action="Index" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")">HOME</a>
             <a asp-controller="Home" asp-action="JoinUs" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "JoinUs" ? "active" : "")">JOIN US</a>
-            <a asp-controller="Home" asp-action="Events" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Events" ? "active" : "")">EVENTS</a>
+            <a asp-controller="Event" asp-action="Index" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Index" && ViewContext.RouteData.Values["controller"].ToString() == "Event" ? "active" : "")">EVENTS</a>
             <a asp-controller="Home" asp-action="Contact" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Contact" ? "active" : "")">CONTACT</a>
             <a asp-controller="Home" asp-action="Login" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Login" ? "active" : "")">LOGIN</a>
         </nav>

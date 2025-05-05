@@ -30,6 +30,14 @@ namespace ArtClubApp.Data
             modelBuilder.Entity<Member>()
                 .Property(m => m.Role)
                 .HasConversion<string>();
+
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder.Entity<Resource>().HasData(
+                new Resource { ResourceId = 1, Name = "Projector", Type = "Electronics", Availability = "available" },
+                new Resource { ResourceId = 2, Name = "Meeting Room A", Type = "Room", Availability = "available" },
+                new Resource { ResourceId = 3, Name = "Sound System", Type = "Audio", Availability = "available" }
+            );
         }
     }
 

@@ -11,12 +11,12 @@ namespace ClubActivityManager.Models
 
         public string Description { get; set; }
 
-        public DateTime DateTime { get; set; }
+        public DateTime DateTime { get; set; } = DateTime.UtcNow;
 
         public string Location { get; set; }
 
-        public int CreatedBy { get; set; }
-        public Member Creator { get; set; }
+        public int? CreatedBy { get; set; }
+        public Member? Creator { get; set; }
 
         // Navigation
         public ICollection<EventRegistration>? EventRegistrations { get; set; }
