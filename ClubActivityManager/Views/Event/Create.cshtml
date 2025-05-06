@@ -1,53 +1,55 @@
 ﻿@model ClubActivityManager.Models.EventWithReservationViewModel
-
 @{
-    ViewData["Title"] = "Create Event & Reserve Resource";
+    ViewData["Title"] = "Create Event";
 }
 
-<h2>Create Event & Reserve Resource</h2>
+<div class="text-center mb-4">
+    <h2 class="create-event-title">Create Event</h2>
+</div>
 
-<form asp-action="Create" method="post">
-    <div class="form-group">
-        <label asp-for="Title"></label>
-        <input asp-for="Title" class="form-control" />
+<form asp-action="Create" method="post" class="event-form">
+    <div class="form-group mb-3">
+        <input asp-for="Title" class="form-control" placeholder="Ex: Artă și Joacă" />
         <span asp-validation-for="Title" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="Description"></label>
-        <textarea asp-for="Description" class="form-control"></textarea>
+    <div class="form-group mb-3">
+        <label asp-for="Description" class="form-label">Description</label>
+        <textarea asp-for="Description" class="form-control" placeholder="Describe your event..."></textarea>
         <span asp-validation-for="Description" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="Location"></label>
-        <input asp-for="Location" class="form-control" />
+    <div class="form-group mb-3">
+        <label asp-for="Location" class="form-label">Location</label>
+        <input asp-for="Location" class="form-control" placeholder="Ex: București" />
         <span asp-validation-for="Location" class="text-danger"></span>
     </div>
 
     <hr />
 
-    <h4>Resource Reservation</h4>
+    <h4 class="resource-title mb-3">Resource Reservation</h4>
 
-    <div class="form-group">
+    <div class="form-group mb-3">
         <label>Select Resources</label>
         <select asp-for="ResourceIds" class="form-control" asp-items="@(new MultiSelectList(Model.AvailableResources, "ResourceId", "Name"))" multiple></select>
         <span asp-validation-for="ResourceIds" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="StartTime"></label>
+    <div class="form-group mb-3">
+        <label asp-for="StartTime">Start Time</label>
         <input asp-for="StartTime" type="datetime-local" class="form-control" />
         <span asp-validation-for="StartTime" class="text-danger"></span>
     </div>
 
-    <div class="form-group">
-        <label asp-for="EndTime"></label>
+    <div class="form-group mb-4">
+        <label asp-for="EndTime">End Time</label>
         <input asp-for="EndTime" type="datetime-local" class="form-control" />
         <span asp-validation-for="EndTime" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-primary">Create Event</button>
+    <div class="text-center">
+        <button type="submit" class="btn btn-danger create-event-btn">Create Event</button>
+    </div>
 </form>
 
 @section Scripts {
