@@ -15,8 +15,8 @@ namespace ClubActivityManager.Models
 
         public string Location { get; set; }
 
-        public int? CreatedBy { get; set; }
-        public Member? Creator { get; set; }
+        public string CreatedBy { get; set; } 
+        public ApplicationUser Creator { get; set; }
 
         // Navigation
         public ICollection<EventRegistration>? EventRegistrations { get; set; }

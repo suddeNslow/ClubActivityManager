@@ -4,8 +4,8 @@
     {
         public int EventRegistrationId { get; set; }
 
-        public int MemberId { get; set; }
-        public Member Member { get; set; }
+        public string UserId { get; set; }  
+        public ApplicationUser User { get; set; }  
 
         public int EventId { get; set; }
         public Event Event { get; set; }

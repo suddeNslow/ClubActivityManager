@@ -1,10 +1,14 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@using ClubActivityManager.Models 
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ClubActivityManager</title>
-    @*@<link rel="stylesheet" href="~/css/landing.css" asp-append-version="true" />*@
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
@@ -18,17 +22,17 @@
                 <h1>Club<br><span>flacăra</span></h1>
             </div>
         </div>
-        <nav>
-            <a asp-controller="Home" asp-action="Index" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")">HOME</a>
-            <a asp-controller="Home" asp-action="JoinUs" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "JoinUs" ? "active" : "")">JOIN US</a>
-            <a asp-controller="Event" asp-action="Index" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Index" && ViewContext.RouteData.Values["controller"].ToString() == "Event" ? "active" : "")">EVENTS</a>
-            <a asp-controller="Home" asp-action="Contact" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Contact" ? "active" : "")">CONTACT</a>
-            <a asp-controller="Home" asp-action="Login" class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Login" ? "active" : "")">LOGIN</a>
-        </nav>
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <div class="container-fluid">
+                <a asp-controller="Home" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")">HOME</a>
+                <a asp-controller="Home" asp-action="JoinUs" class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "JoinUs" ? "active" : "")">JOIN US</a>
+                <a asp-controller="Event" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Event" ? "active" : "")">EVENTS</a>
+                <a asp-controller="Home" asp-action="Contact" class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Contact" ? "active" : "")">CONTACT</a>
 
-        <div class="member-login-container">
-            <button class="login-button">Member Login</button>
-        </div>
+                <!-- Identity-based login/register/logout -->
+                <partial name="_LoginPartial" />
+            </div>
+        </nav>
     </header>
 
     <main role="main" class="container pb-3">
@@ -45,14 +49,12 @@
                 <ul>
                     <li><a asp-controller="Home" asp-action="Index">Home</a></li>
                     <li><a asp-controller="Home" asp-action="JoinUs">Join Us</a></li>
-                    <li><a asp-controller="Home" asp-action="Events">Events</a></li>
+                    <li><a asp-controller="Event" asp-action="Index">Events</a></li>
                     <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
-                    <li><a asp-controller="Home" asp-action="Login">Login</a></li>
                 </ul>
             </div>
         </div>
     </footer>
-
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

@@ -4,6 +4,7 @@ using ArtClubApp.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ClubActivityManager.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250511184805_Identity1")]
+    partial class Identity1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -136,19 +139,18 @@ namespace ClubActivityManager.Migrations
                     b.Property<int>("EventId")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("RegistrationDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("UserId")
+                    b.Property<string>("MemberId")
                         .IsRequired()
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("RegistrationDate")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("EventRegistrationId");
 
                     b.HasIndex("EventId");
 
-                    b.HasIndex("UserId", "EventId")
-                        .IsUnique();
+                    b.HasIndex("MemberId");
 
                     b.ToTable("EventRegistrations");
                 });
@@ -415,15 +417,15 @@ namespace ClubActivityManager.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ApplicationUser", "User")
+                    b.HasOne("ApplicationUser", "Member")
                         .WithMany("EventRegistrations")
-                        .HasForeignKey("UserId")
+                        .HasForeignKey("MemberId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.Navigation("Event");
 
-                    b.Navigation("User");
+                    b.Navigation("Member");
                 });
 
             modelBuilder.Entity("ClubActivityManager.Models.Payment", b =>
