@@ -4,8 +4,8 @@
     {
         public int PaymentId { get; set; }
 
-        public int MemberId { get; set; }
-        public Member Member { get; set; }
+        public string MemberId { get; set; }
+        public ApplicationUser Member { get; set; }
 
         public decimal Amount { get; set; }
 

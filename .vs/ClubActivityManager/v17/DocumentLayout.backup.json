@@ -1,98 +1,116 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Teme\\Project\\ClubActivityManager\\",
+  "WorkspaceRootPath": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\clubactivitymanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\clubactivitymanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250511185121_Identity2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClubActivityManager\\Migrations\\20250511185121_Identity2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\models\\eventregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\eventregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250511184805_Identity1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClubActivityManager\\Migrations\\20250511184805_Identity1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\models\\resourcereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\resourcereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\models\\eventwithreservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\eventwithreservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ArtClubDb/True/SqlTable/dbo.Members.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413145851_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413145851_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClubActivityManager\\Migrations\\20250413145851_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413150409_Create2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413150409_Create2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ClubActivityManager\\Migrations\\20250413150409_Create2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\models\\eventwithreservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\eventwithreservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\migrations\\20250505205151_thirdcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\migrations\\20250505205151_thirdcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\migrations\\20250505205151_thirdcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\views\\event\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\views\\event\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\dbcontext\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\clubactivitymanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\clubactivitymanager.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\migrations\\20250505182805_seconcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\migrations\\20250505182805_seconcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\migrations\\20250505182805_seconcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\models\\eventregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\eventregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\models\\resourcereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\models\\resourcereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\teme\\project\\clubactivitymanager\\clubactivitymanager\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|d:\\proiecte programare\\proiecte personale\\wad\\se_artclubmanager\\clubactivitymanager\\clubactivitymanager\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E5ABA07B-AA03-4579-939A-B2F61EFACE04}|ClubActivityManager\\ClubActivityManager.csproj|solutionrelative:clubactivitymanager\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -103,7 +121,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -111,61 +129,219 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EventWithReservationViewModel.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\EventWithReservationViewModel.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\EventWithReservationViewModel.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\EventWithReservationViewModel.cs",
-              "RelativeToolTip": "ClubActivityManager\\Models\\EventWithReservationViewModel.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwBwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T20:59:39.095Z"
+              "DocumentIndex": 2,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ClubActivityManager\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-11T20:14:29.524Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "20250505205151_ThirdCreate.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250505205151_ThirdCreate.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Migrations\\20250505205151_ThirdCreate.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250505205151_ThirdCreate.cs",
-              "RelativeToolTip": "ClubActivityManager\\Migrations\\20250505205151_ThirdCreate.cs",
+              "DocumentIndex": 3,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ClubActivityManager\\ScaffoldingReadMe.txt",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ClubActivityManager\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-05-11T19:55:52.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250511185121_Identity2.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250511185121_Identity2.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Migrations\\20250511185121_Identity2.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250511185121_Identity2.cs",
+              "RelativeToolTip": "ClubActivityManager\\Migrations\\20250511185121_Identity2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T20:51:51.105Z"
+              "WhenOpened": "2025-05-11T18:51:21.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250511184805_Identity1.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250511184805_Identity1.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Migrations\\20250511184805_Identity1.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250511184805_Identity1.cs",
+              "RelativeToolTip": "ClubActivityManager\\Migrations\\20250511184805_Identity1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:48:05.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\DbContext\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\DbContext\\AppDbContext.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\DbContext\\AppDbContext.cs",
+              "RelativeToolTip": "ClubActivityManager\\DbContext\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA7wBsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:33:55.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Event.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\Event.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\Event.cs",
+              "RelativeToolTip": "ClubActivityManager\\Models\\Event.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:16:57.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventRegistration.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\EventRegistration.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\EventRegistration.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\EventRegistration.cs",
+              "RelativeToolTip": "ClubActivityManager\\Models\\EventRegistration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:22:41.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ResourceReservation.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\ResourceReservation.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\ResourceReservation.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\ResourceReservation.cs",
+              "RelativeToolTip": "ClubActivityManager\\Models\\ResourceReservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:24:48.213Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Program.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Program.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Program.cs",
+              "RelativeToolTip": "ClubActivityManager\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAiwEQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-23T17:48:19.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\ApplicationUser.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "ClubActivityManager\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T18:29:10.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Event\\Index.cshtml",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ClubActivityManager\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T08:40:06.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ClubActivityManager\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-02T08:34:32.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\Resource.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\Resource.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\Resource.cs",
+              "RelativeToolTip": "ClubActivityManager\\Models\\Resource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:23:14.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClubActivityManager.csproj",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\ClubActivityManager.csproj",
+              "RelativeDocumentMoniker": "ClubActivityManager\\ClubActivityManager.csproj",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\ClubActivityManager.csproj",
+              "RelativeToolTip": "ClubActivityManager\\ClubActivityManager.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-13T14:32:57.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "EventWithReservationViewModel.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\EventWithReservationViewModel.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\EventWithReservationViewModel.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\EventWithReservationViewModel.cs",
+              "RelativeToolTip": "ClubActivityManager\\Models\\EventWithReservationViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-05T20:59:39.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Event\\Index.cshtml",
               "RelativeDocumentMoniker": "ClubActivityManager\\Views\\Event\\Index.cshtml",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Event\\Index.cshtml",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Event\\Index.cshtml",
               "RelativeToolTip": "ClubActivityManager\\Views\\Event\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-05T17:39:04.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Event\\Create.cshtml",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Views\\Event\\Create.cshtml",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Event\\Create.cshtml",
-              "RelativeToolTip": "ClubActivityManager\\Views\\Event\\Create.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-05T17:18:24.627Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "EventController.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Controllers\\EventController.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Controllers\\EventController.cs",
               "RelativeDocumentMoniker": "ClubActivityManager\\Controllers\\EventController.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Controllers\\EventController.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Controllers\\EventController.cs",
               "RelativeToolTip": "ClubActivityManager\\Controllers\\EventController.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAiwDcAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -174,153 +350,85 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\Payment.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Models\\Payment.cs",
+              "RelativeToolTip": "ClubActivityManager\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:25:19.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "site.css",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "ClubActivityManager\\wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\wwwroot\\css\\site.css",
               "RelativeToolTip": "ClubActivityManager\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAPcAAAAAAAAAAAAYwDsBAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACwBAAAAAAAAAAAmwEMBAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-05-02T08:34:09.527Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 23,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ClubActivityManager\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Controllers\\HomeController.cs",
               "RelativeToolTip": "ClubActivityManager\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:56:21.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "ClubActivityManager\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T08:40:06.4Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ClubActivityManager\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAkwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-02T08:34:32.914Z",
+              "WhenOpened": "2025-04-13T14:56:21.464Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\DbContext\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\DbContext\\AppDbContext.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\DbContext\\AppDbContext.cs",
-              "RelativeToolTip": "ClubActivityManager\\DbContext\\AppDbContext.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAiwB0AAAApAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Event\\Create.cshtml",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Views\\Event\\Create.cshtml",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Event\\Create.cshtml",
+              "RelativeToolTip": "ClubActivityManager\\Views\\Event\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-05T17:18:24.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250505205151_ThirdCreate.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250505205151_ThirdCreate.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Migrations\\20250505205151_ThirdCreate.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250505205151_ThirdCreate.cs",
+              "RelativeToolTip": "ClubActivityManager\\Migrations\\20250505205151_ThirdCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:33:55.977Z"
+              "WhenOpened": "2025-05-05T20:51:51.105Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ClubActivityManager.csproj",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\ClubActivityManager.csproj",
-              "RelativeDocumentMoniker": "ClubActivityManager\\ClubActivityManager.csproj",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\ClubActivityManager.csproj",
-              "RelativeToolTip": "ClubActivityManager\\ClubActivityManager.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-13T14:32:57.354Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\Payment.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\Payment.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\Payment.cs",
-              "RelativeToolTip": "ClubActivityManager\\Models\\Payment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:25:19.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Event.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\Event.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\Event.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\Event.cs",
-              "RelativeToolTip": "ClubActivityManager\\Models\\Event.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAcwBEAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:16:57.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "20250505182805_SeconCreate.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250505182805_SeconCreate.cs",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250505182805_SeconCreate.cs",
               "RelativeDocumentMoniker": "ClubActivityManager\\Migrations\\20250505182805_SeconCreate.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250505182805_SeconCreate.cs",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250505182805_SeconCreate.cs",
               "RelativeToolTip": "ClubActivityManager\\Migrations\\20250505182805_SeconCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-05T18:28:05.341Z"
+              "WhenOpened": "2025-05-05T18:28:05.341Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "EventRegistration.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\EventRegistration.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\EventRegistration.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\EventRegistration.cs",
-              "RelativeToolTip": "ClubActivityManager\\Models\\EventRegistration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:22:41.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Member.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\Member.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\Member.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\Member.cs",
-              "RelativeToolTip": "ClubActivityManager\\Models\\Member.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:10:50.924Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Program.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Program.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Program.cs",
-              "RelativeToolTip": "ClubActivityManager\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T17:48:19.235Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "dbo.Members.sql",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ArtClubDb/True/SqlTable/dbo.Members.sql",
               "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/ArtClubDb/True/SqlTable/dbo.Members.sql",
@@ -329,35 +437,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Resource.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\Resource.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\Resource.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\Resource.cs",
-              "RelativeToolTip": "ClubActivityManager\\Models\\Resource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:23:14.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ResourceReservation.cs",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\ResourceReservation.cs",
-              "RelativeDocumentMoniker": "ClubActivityManager\\Models\\ResourceReservation.cs",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Models\\ResourceReservation.cs",
-              "RelativeToolTip": "ClubActivityManager\\Models\\ResourceReservation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T14:24:48.213Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\appsettings.json",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\appsettings.json",
               "RelativeDocumentMoniker": "ClubActivityManager\\appsettings.json",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\appsettings.json",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\appsettings.json",
               "RelativeToolTip": "ClubActivityManager\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -365,33 +449,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 19,
               "Title": "20250413150409_Create2.cs",
               "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413150409_Create2.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413150409_Create2.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Migrations\\20250413150409_Create2.cs",
               "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413150409_Create2.cs",
-              "RelativeToolTip": "..\\..\\..\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413150409_Create2.cs",
+              "RelativeToolTip": "ClubActivityManager\\Migrations\\20250413150409_Create2.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T15:04:10.091Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "20250413145851_InitialCreate.cs",
               "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413145851_InitialCreate.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413145851_InitialCreate.cs",
+              "RelativeDocumentMoniker": "ClubActivityManager\\Migrations\\20250413145851_InitialCreate.cs",
               "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413145851_InitialCreate.cs",
-              "RelativeToolTip": "..\\..\\..\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Migrations\\20250413145851_InitialCreate.cs",
+              "RelativeToolTip": "ClubActivityManager\\Migrations\\20250413145851_InitialCreate.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-13T14:58:51.762Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Home\\Login.cshtml",
+              "DocumentMoniker": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Home\\Login.cshtml",
               "RelativeDocumentMoniker": "ClubActivityManager\\Views\\Home\\Login.cshtml",
-              "ToolTip": "D:\\Teme\\Project\\ClubActivityManager\\ClubActivityManager\\Views\\Home\\Login.cshtml",
+              "ToolTip": "D:\\PROIECTE PROGRAMARE\\PROIECTE PERSONALE\\WAD\\SE_ArtClubManager\\ClubActivityManager\\ClubActivityManager\\Views\\Home\\Login.cshtml",
               "RelativeToolTip": "ClubActivityManager\\Views\\Home\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
