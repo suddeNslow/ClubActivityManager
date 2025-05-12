@@ -110,5 +110,94 @@ namespace ClubActivityManager.Controllers
             model.AvailableResources = _context.Resources.ToList();
             return View(model);
         }
+        // GET: Event/Details/5
+        public async Task<IActionResult> Details(int id)
+        {
+            var evt = await _context.Events
+            .Include(e => e.Creator)
+            .Include(e => e.EventRegistrations)
+                .ThenInclude(r => r.User) // Include registered users
+            .FirstOrDefaultAsync(e => e.EventId == id);
+
+            if (evt == null)
+            {
+                return NotFound();
+            }
+
+            var userId = _userManager.GetUserId(User);
+            ViewBag.AlreadyRegistered = evt.EventRegistrations.Any(r => r.UserId == userId);
+
+            return View(evt);
+        }
+
+        // POST: Event/Register/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Register(int id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var eventExists = await _context.Events.AnyAsync(e => e.EventId == id);
+
+            if (!eventExists)
+            {
+                return NotFound();
+            }
+
+            var alreadyRegistered = await _context.EventRegistrations
+                .AnyAsync(r => r.EventId == id && r.UserId == user.Id);
+
+            if (!alreadyRegistered)
+            {
+                var registration = new EventRegistration
+                {
+                    EventId = id,
+                    UserId = user.Id,
+                    RegistrationDate = DateTime.UtcNow
+                };
+
+                _context.EventRegistrations.Add(registration);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction(nameof(Details), new { id });
+        }
+        // POST: Event/Unregister
+        [HttpPost]
+        public async Task<IActionResult> Unregister(int id)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            var registration = await _context.EventRegistrations
+                .FirstOrDefaultAsync(r => r.EventId == id && r.UserId == user.Id);
+
+            if (registration != null)
+            {
+                _context.EventRegistrations.Remove(registration);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToAction("Details", new { id = id });
+        }
+        // POST: Event/Delete
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var evt = await _context.Events
+                .Include(e => e.EventRegistrations)
+                .Include(e => e.ResourceReservations)
+                .FirstOrDefaultAsync(e => e.EventId == id);
+
+            var user = await _userManager.GetUserAsync(User);
+            if (evt == null || evt.CreatedBy != user.Id)
+            {
+                return Unauthorized();
+            }
+
+            _context.EventRegistrations.RemoveRange(evt.EventRegistrations);
+            _context.ResourceReservations.RemoveRange(evt.ResourceReservations);
+            _context.Events.Remove(evt);
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
     }
 }

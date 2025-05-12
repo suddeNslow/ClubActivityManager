@@ -11,7 +11,7 @@ namespace ClubActivityManager.Models
         public string Description { get; set; }
 
         [Required]
-        public DateTime DateTime { get; set; }
+        public DateTime DateTime { get; set; } = DateTime.UtcNow;
 
         public string Location { get; set; }
 

@@ -16,6 +16,7 @@
                 <p><strong>Created by:</strong> @item.Creator?.UserName</p>
                 <p>@item.Description</p>
                 <p><strong>Resources:</strong></p>
+                <p><strong>Details: </strong><a asp-action="Details" asp-route-id="@item.EventId" class="form-submit-btn">Details</a></p>
                 @if (item.ResourceReservations != null && item.ResourceReservations.Any())
                 {
                     <ul class="event-resources">
