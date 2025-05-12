@@ -48,28 +48,7 @@
             </form>
         </section>
 
-        <section class="external-login">
-            <h3>Use another service to log in.</h3>
-            <hr />
-            @if ((Model.ExternalLogins?.Count ?? 0) == 0)
-            {
-                <p>
-                    No external authentication services configured.
-                    <a href="https://go.microsoft.com/fwlink/?LinkID=532715">Set up external login providers</a>.
-                </p>
-            }
-            else
-            {
-                <form asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
-                    @foreach (var provider in Model.ExternalLogins!)
-                    {
-                        <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">
-                            @provider.DisplayName
-                        </button>
-                    }
-                </form>
-            }
-        </section>
+      
     </div>
 </div>
 
