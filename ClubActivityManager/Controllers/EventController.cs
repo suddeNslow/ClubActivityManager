@@ -3,22 +3,28 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ClubActivityManager.Models;
 using ArtClubApp.Data;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 
 namespace ClubActivityManager.Controllers
 {
+    [Authorize]
     public class EventController : Controller
     {
         private readonly AppDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
 
-        public EventController(AppDbContext context)
+        public EventController(AppDbContext context, UserManager<ApplicationUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Event
         public async Task<IActionResult> Index()
         {
             var events = await _context.Events
+                .Include(e => e.Creator)
                 .Include(e => e.ResourceReservations)
                     .ThenInclude(rr => rr.Resource)
                 .ToListAsync();
@@ -57,12 +63,16 @@ namespace ClubActivityManager.Controllers
         {
             if (ModelState.IsValid)
             {
+                var user = await _userManager.GetUserAsync(User);
+
                 var newEvent = new Event
                 {
                     Title = model.Title,
                     Description = model.Description,
                     DateTime = model.DateTime,
-                    Location = model.Location
+                    Location = model.Location,
+                    CreatedBy = user.Id,
+                    Creator = user
                 };
 
                 _context.Events.Add(newEvent);
@@ -82,6 +92,17 @@ namespace ClubActivityManager.Controllers
                     _context.ResourceReservations.Add(reservation);
                 }
 
+                await _context.SaveChangesAsync();
+
+                // Register the creator as the first attendee
+                var registration = new EventRegistration
+                {
+                    EventId = newEvent.EventId,
+                    UserId = user.Id,
+                    RegistrationDate = DateTime.UtcNow
+                };
+
+                _context.EventRegistrations.Add(registration);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }

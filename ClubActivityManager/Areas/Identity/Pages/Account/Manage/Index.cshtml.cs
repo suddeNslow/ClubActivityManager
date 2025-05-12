@@ -51,6 +51,9 @@ namespace ClubActivityManager.Areas.Identity.Pages.Account.Manage
         /// </summary>
         public class InputModel
         {
+            [Required]
+            [Display(Name = "Username")]
+            public string UserName { get; set; }
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
             ///     directly from your code. This API may change or be removed in future releases.
@@ -69,7 +72,8 @@ namespace ClubActivityManager.Areas.Identity.Pages.Account.Manage
 
             Input = new InputModel
             {
-                PhoneNumber = phoneNumber
+                PhoneNumber = phoneNumber,
+                UserName = userName
             };
         }
 
@@ -88,6 +92,16 @@ namespace ClubActivityManager.Areas.Identity.Pages.Account.Manage
         public async Task<IActionResult> OnPostAsync()
         {
             var user = await _userManager.GetUserAsync(User);
+            var userName = await _userManager.GetUserNameAsync(user);
+            if (Input.UserName != userName)
+            {
+                var setUserNameResult = await _userManager.SetUserNameAsync(user, Input.UserName);
+                if (!setUserNameResult.Succeeded)
+                {
+                    StatusMessage = "Unexpected error when trying to set username.";
+                    return RedirectToPage();
+                }
+            }
             if (user == null)
             {
                 return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");

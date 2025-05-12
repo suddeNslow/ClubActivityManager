@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ClubActivityManager.Models
 {
@@ -15,6 +16,7 @@ namespace ClubActivityManager.Models
 
         public string Location { get; set; }
 
+        [ForeignKey("Creator")]
         public string CreatedBy { get; set; } 
         public ApplicationUser Creator { get; set; }
 

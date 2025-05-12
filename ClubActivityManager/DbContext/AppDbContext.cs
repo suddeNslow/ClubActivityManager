@@ -25,7 +25,7 @@ namespace ArtClubApp.Data
                 .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<EventRegistration>()
-            .HasIndex(er => new { er.UserId, er.EventId }) // ✅ assuming you renamed it from MemberId to UserId
+            .HasIndex(er => new { er.UserId, er.EventId }) 
             .IsUnique();
 
             modelBuilder.Entity<Resource>().HasData(
