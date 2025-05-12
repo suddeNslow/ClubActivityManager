@@ -1,5 +1,7 @@
 html {
     font-size: 14px;
+    position: relative;
+    min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -8,25 +10,20 @@ html {
     }
 }
 
+body {
+    margin: 0;
+    margin-bottom: 60px;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #efefef;
+    color: #000;
+}
+
 .btn:focus,
 .btn:active:focus,
 .btn-link.nav-link:focus,
 .form-control:focus,
 .form-check-input:focus {
     box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-    margin-bottom: 60px;
-    font-family: 'Patrick Hand', cursive;
-    margin: 0;
-    background-color: #efefef;
-    color: #000;
 }
 
 .form-floating > .form-control-plaintext::placeholder,
@@ -40,58 +37,64 @@ body {
     text-align: start;
 }
 
-header {
-    text-align: center;
-    padding: 1rem;
+/* Header */
+
+.site-header {
+    padding: 1rem 2rem;
     border-bottom: 1px solid #ddd;
+    background-color: #efefef;
     position: relative;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
 }
 
 .logo-box {
     display: flex;
     align-items: center;
-    border: 2px solid yellow; 
+    justify-content: center;
     padding: 1rem 2rem;
+    border: 2px solid yellow;
     border-radius: 12px;
     gap: 1rem;
-    justify-content: center;
-    max-width: fit-content;
     margin: 0 auto;
 }
 
-
-
-
 .club-icon {
-    width: 60px;
+    width: 100px;
     height: auto;
 }
 
 .logo-text h1 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 4rem;
     line-height: 1.2;
     color: black;
 }
 
 .logo-text span {
-    font-size: 2rem;
+    font-size: 3rem;
     display: block;
-    color: #d62828; 
+    color: #d62828;
 }
-
 
 nav {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin: 1rem 0;
+    margin-top: 1rem;
 }
 
     nav a {
         text-decoration: none;
         color: inherit;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
+        font-weight: bold;
         position: relative;
     }
 
@@ -99,20 +102,60 @@ nav {
             color: #f1d928;
         }
 
+/* Login Partial / Top Nav */
+
+.top-login-bar,
+.login-topnav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .member-login-container {
-    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    padding-left: 0;
+    margin-right: 1rem;
+}
+
+.welcome-text {
+    font-size: 1.1rem;
+    margin: 0;
 }
 
 .login-button {
-    background-color: #ff4444;
-    color: white;
-    border: none;
-    padding: 0.7rem 1.5rem;
+    background-color: #dfc91f;
     font-family: 'Patrick Hand', cursive;
+    color: black;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
 }
+
+    .login-button:hover {
+        background-color: #d6b81b;
+    }
+
+#logoutForm {
+    margin: 0;
+}
+
+.profile-link {
+    text-decoration: none;
+    display: inline-block;
+}
+
+    .profile-link:hover {
+        background-color: #d6b81b;
+    }
+
+/* Main Content */
 
 main {
     background-color: #efefef;
@@ -126,14 +169,12 @@ main {
     max-width: 1100px;
     display: flex;
     gap: 2rem;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 0 20px;
     padding: 10px;
 }
 
 .landing-text {
     flex: 1;
-    color: #000;
     font-size: 1.1rem;
 }
 
@@ -159,6 +200,8 @@ main {
     max-width: 200px;
 }
 
+/* Login Page */
+
 .login-page {
     display: flex;
     justify-content: center;
@@ -168,12 +211,16 @@ main {
     gap: 2rem;
 }
 
-.login-left {
+.login-left,
+.login-right {
     flex: 1;
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.login-left {
+    position: relative;
 }
 
 .speech-image {
@@ -187,17 +234,13 @@ main {
     font-size: 1.3rem;
     max-width: 200px;
     text-align: center;
-    font-family: 'Patrick Hand', cursive;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .login-right {
-    flex: 1;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .login-form {
@@ -213,7 +256,6 @@ main {
     padding: 0.6rem 1.2rem;
     font-size: 1rem;
     cursor: pointer;
-    font-family: 'Patrick Hand', cursive;
     border-radius: 5px;
     width: fit-content;
 }
@@ -222,16 +264,61 @@ main {
     color: #dfc91f;
     font-size: 0.9rem;
     margin-top: 0.5rem;
-    font-family: 'Patrick Hand', cursive;
 }
 
-/* ~~~~~~~~~~~footer~~~~~~~~~~~ */
+/* Events */
+
+.create-event-btn {
+    padding: 0.6rem 1.5rem;
+}
+
+.create-event-title {
+    color: #d62828;
+}
+
+.event-list-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.event-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-img {
+    border-radius: 8px;
+    max-height: 180px;
+    object-fit: cover;
+}
+
+.resource-title {
+    color: #000;
+}
+
+.event-details {
+    flex: 1;
+    border: 2px solid #dfc91f;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #dfc91f;
+}
+
+.event-card {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: row;
+}
+
+/* Footer */
 
 .club-footer {
     background-color: #efefef;
     border-top: 1px solid #ddd;
     padding: 2rem 1rem 1rem;
-    font-family: 'Patrick Hand', cursive;
     font-size: 1rem;
     max-width: 1100px;
     margin: 0 auto;
@@ -276,51 +363,144 @@ main {
     font-size: 0.95rem;
 }
 
-/* ~~~~~~~~~~~event~~~~~~~~~~~ */
-
-.create-event-btn {
-    font-family: 'Patrick Hand', cursive;
-    padding: 0.6rem 1.5rem;
-}
-
-.create-event-title {
-    color: #d62828;
-}
-
-.event-list-container {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.event-image-container {
+.manage-nav {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.event-img {
-    border-radius: 8px;
-    max-height: 180px;
-    object-fit: cover;
-}
-
-.resource-title {
-    color: #000;
-}
-
-.event-details {
-    flex: 1;
-    border: 2px solid #dfc91f;
-    border-radius: 8px;
-    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
     background-color: #dfc91f;
+    padding: 1rem;
+    border-radius: 10px;
+    font-family: 'Patrick Hand', cursive;
 }
 
-.event-card {
-    padding: 1.5rem;
-    margin-bottom: 2rem; 
+.manage-link {
+    display: block;
+    background-color: #fff;
+    color: #000;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+    .manage-link:hover {
+        background-color: #f4e664;
+    }
+
+    .manage-link.active {
+        background-color: #d62828;
+        color: #fff;
+    }
+
+
+
+/* ~~~~~~~~~account manager page~~~~~~~~~~~*/
+
+.manage-heading {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5rem;
+    color: #d62828;
+    margin-bottom: 1rem;
+}
+
+.manage-account-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.identity-layout {
     display: flex;
     flex-direction: row;
+    gap: 2rem;
+    background-color: #dfc91f;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.manage-nav {
+    min-width: 200px;
+}
+
+.manage-body {
+    flex: 1;
+}
+
+/* ~~~~~~~~~~~ Generic Form Styles ~~~~~~~~~~~ */
+
+.manage-heading {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5rem;
+    color: #d62828;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+
+.form-heading {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2.5rem;
+    color: #d62828;
+    margin-bottom: 1rem;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.form-content {
+    background-color: #dfc91f;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
     gap: 1.5rem;
 }
+
+.form-floating .form-control {
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.form-floating .form-label {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.form-submit-btn {
+    background-color: #d62828;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+    .form-submit-btn:hover {
+        background-color: #d6b81b;
+    }
+
+
 

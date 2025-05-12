@@ -1,5 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Identity
-@using ClubActivityManager.Models 
+@using ClubActivityManager.Models
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 
@@ -10,30 +10,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - ClubActivityManager</title>
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/ClubActivityManager.styles.css" asp-append-version="true" />
 </head>
 <body>
-    <header>
-        <div class="logo-box">
-            <img src="~/assets/Icon.png" alt="Club Flacara Icon" class="club-icon" asp-append-version="true" />
-            <div class="logo-text">
-                <h1>Club<br><span>flacăra</span></h1>
-            </div>
+    <header class="site-header">
+        <div class="login-topnav">
+            <partial name="_LoginPartial" />
         </div>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <div class="container-fluid">
-                <a asp-controller="Home" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")">HOME</a>
-                <a asp-controller="Home" asp-action="JoinUs" class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "JoinUs" ? "active" : "")">JOIN US</a>
-                <a asp-controller="Event" asp-action="Index" class="nav-link @(ViewContext.RouteData.Values["controller"]?.ToString() == "Event" ? "active" : "")">EVENTS</a>
-                <a asp-controller="Home" asp-action="Contact" class="nav-link @(ViewContext.RouteData.Values["action"]?.ToString() == "Contact" ? "active" : "")">CONTACT</a>
 
-                <!-- Identity-based login/register/logout -->
-                <partial name="_LoginPartial" />
+        <div class="header-container">
+            <div class="logo-box">
+                <img src="~/assets/Icon.png" alt="Club Flacara Icon" class="club-icon" asp-append-version="true" />
+                <div class="logo-text">
+                    <h1>Club<br><span>flacăra</span></h1>
+                </div>
             </div>
-        </nav>
+
+            <nav>
+                <a asp-controller="Home" asp-action="Index"
+                   class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")">
+                    HOME
+                </a>
+                <a asp-controller="Home" asp-action="JoinUs"
+                   class="@(ViewContext.RouteData.Values["action"]?.ToString() == "JoinUs" ? "active" : "")">
+                    JOIN US
+                </a>
+                <a asp-controller="Event" asp-action="Index"
+                   class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Event" ? "active" : "")">
+                    EVENTS
+                </a>
+                <a asp-controller="Home" asp-action="Contact"
+                   class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Contact" ? "active" : "")">
+                    CONTACT
+                </a>
+            </nav>
+        </div>
     </header>
+
+
 
     <main role="main" class="container pb-3">
         @RenderBody()
@@ -56,8 +71,6 @@
         </div>
     </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @await RenderSectionAsync("Scripts", required: false)
 </body>
