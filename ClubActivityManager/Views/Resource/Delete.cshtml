@@ -1,0 +1,24 @@
+﻿@model ClubActivityManager.Models.Resource
+
+@{
+    ViewData["Title"] = "Delete Resource";
+}
+
+<div class="form-container">
+    <div class="form-content">
+        <h1 class="manage-heading">Delete Resource</h1>
+
+        <h4>Are you sure you want to delete this resource?</h4>
+        <div class="mb-3">
+            <strong>Name:</strong> @Model.Name <br />
+            <strong>Type:</strong> @Model.Type <br />
+            <strong>Availability:</strong> @Model.Availability
+        </div>
+
+        <form asp-action="DeleteConfirmed" method="post">
+            <input type="hidden" asp-for="ResourceId" />
+            <button type="submit" class="btn btn-danger">Delete</button>
+            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+        </form>
+    </div>
+</div>
