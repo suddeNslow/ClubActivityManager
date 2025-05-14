@@ -29,21 +29,28 @@
 
             <nav>
                 <a asp-controller="Home" asp-action="Index"
-                   class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")">
+                    class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Index" ? "active" : "")">
                     HOME
                 </a>
                 <a asp-controller="Home" asp-action="JoinUs"
-                   class="@(ViewContext.RouteData.Values["action"]?.ToString() == "JoinUs" ? "active" : "")">
+                    class="@(ViewContext.RouteData.Values["action"]?.ToString() == "JoinUs" ? "active" : "")">
                     JOIN US
                 </a>
                 <a asp-controller="Event" asp-action="Index"
-                   class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Event" ? "active" : "")">
+                    class="@(ViewContext.RouteData.Values["controller"]?.ToString() == "Event" ? "active" : "")">
                     EVENTS
                 </a>
                 <a asp-controller="Home" asp-action="Contact"
-                   class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Contact" ? "active" : "")">
+                    class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Contact" ? "active" : "")">
                     CONTACT
                 </a>
+                @if (User.IsInRole("Admin"))
+                {
+                    <a asp-controller="Admin" asp-action="Dashboard"
+                        class="@(ViewContext.RouteData.Values["action"]?.ToString() == "Contact" ? "active" : "")">
+                        DASHBOARD
+                    </a>
+                }
             </nav>
         </div>
     </header>

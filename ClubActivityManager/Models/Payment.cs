@@ -1,4 +1,6 @@
-﻿namespace ClubActivityManager.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ClubActivityManager.Models
 {
     public class Payment
     {

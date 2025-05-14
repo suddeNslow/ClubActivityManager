@@ -445,6 +445,39 @@ main {
     flex: 1;
 }
 
+/* ~~~~~~~~~~~ Admin Dashboard ~~~~~~~~~~~ */
+
+.admin-dashboard {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #ddd;
+}
+
+    .sidebar ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .sidebar li {
+        margin: 10px 0;
+    }
+
+    .sidebar a {
+        text-decoration: none;
+        color: #007bff;
+    }
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
 /* ~~~~~~~~~~~ Generic Form Styles ~~~~~~~~~~~ */
 
 .manage-heading {
