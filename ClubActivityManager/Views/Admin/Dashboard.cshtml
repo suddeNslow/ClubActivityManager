@@ -2,7 +2,9 @@
     ViewData["Title"] = "Admin Dashboard";
 }
 
-<div class="admin-dashboard">
+<div class="admin-dashboard-container">
+    <h2 class="manage-heading">Admin Dashboard</h2>
+
     <div class="sidebar">
         <ul>
             <li><a asp-controller="Admin" asp-action="Members">Members</a></li>
@@ -10,10 +12,5 @@
             <li><a asp-controller="Admin" asp-action="Events">Events</a></li>
             <li><a asp-controller="Admin" asp-action="Payments">Payments</a></li>
         </ul>
-    </div>
-
-    <div class="main-content">
-        <h2>Welcome to the Admin Dashboard</h2>
-        <p>Select a section from the sidebar.</p>
     </div>
 </div>

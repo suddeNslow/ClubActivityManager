@@ -6,19 +6,20 @@
 
 <div class="form-container">
     <div class="form-content">
-        <h1 class="manage-heading">Delete Resource</h1>
+        <h2 class="form-heading">Delete Resource</h2>
 
-        <h4>Are you sure you want to delete this resource?</h4>
-        <div class="mb-3">
-            <strong>Name:</strong> @Model.Name <br />
-            <strong>Type:</strong> @Model.Type <br />
-            <strong>Availability:</strong> @Model.Availability
+        <p class="mb-3">Are you sure you want to delete this resource?</p>
+
+        <div class="resource-details mb-4">
+            <p><strong>Name:</strong> @Model.Name</p>
+            <p><strong>Type:</strong> @Model.Type</p>
+            <p><strong>Availability:</strong> @Model.Availability</p>
         </div>
 
-        <form asp-action="DeleteConfirmed" method="post">
+        <form asp-action="DeleteConfirmed" method="post" class="form">
             <input type="hidden" asp-for="ResourceId" />
-            <button type="submit" class="btn btn-danger">Delete</button>
-            <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            <button type="submit" class="form-submit-btn btn-danger">Delete</button>
+            <a asp-action="Index" class="login-button">Cancel</a>
         </form>
     </div>
 </div>
