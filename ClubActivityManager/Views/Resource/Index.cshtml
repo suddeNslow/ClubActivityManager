@@ -3,30 +3,35 @@
     ViewData["Title"] = "Resources";
 }
 
-<h2>Resources</h2>
-<a asp-action="Create" class="btn btn-primary mb-3">Add New Resource</a>
+<div class="page-section">
+    <h2 class="manage-heading">Resources</h2>
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>Name</th>
-            <th>Type</th>
-            <th>Availability</th>
-            <th>Actions</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var resource in Model)
-        {
+    <div class="action-bar">
+        <a asp-action="Create" class="login-button">Add New Resource</a>
+    </div>
+
+    <table class="styled-table">
+        <thead>
             <tr>
-                <td>@resource.Name</td>
-                <td>@resource.Type</td>
-                <td>@resource.Availability</td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@resource.ResourceId" class="btn btn-sm btn-warning">Edit</a>
-                    <a asp-action="Delete" asp-route-id="@resource.ResourceId" class="btn btn-sm btn-danger">Delete</a>
-                </td>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Availability</th>
+                <th>Actions</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var resource in Model)
+            {
+                <tr>
+                    <td>@resource.Name</td>
+                    <td>@resource.Type</td>
+                    <td>@resource.Availability</td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@resource.ResourceId" class="login-button btn-warning-small">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@resource.ResourceId" class="login-button btn-danger-small">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

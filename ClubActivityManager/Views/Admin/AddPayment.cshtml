@@ -1,40 +1,48 @@
 ﻿@model ClubActivityManager.Models.Payment
+
 @{
     ViewData["Title"] = "Add Payment";
 }
 
-<h2>Record Payment</h2>
-<div asp-validation-summary="All" class="text-danger"></div>
-<form asp-action="AddPayment" method="post">
-    <div class="form-group">
-        <label asp-for="MemberId">Member</label>
-        <select asp-for="MemberId" asp-items="ViewBag.Members" class="form-control">
-            <option value="">-- Select Member --</option>
-        </select>
-        <span asp-validation-for="MemberId" class="text-danger"></span>
-    </div>
+<div class="form-container">
+    <div class="form-content">
+        <h2 class="form-heading">Record Payment</h2>
 
-    <div class="form-group">
-        <label asp-for="Amount"></label>
-        <input asp-for="Amount" class="form-control" />
-        <span asp-validation-for="Amount" class="text-danger"></span>
-    </div>
+        <div asp-validation-summary="All" class="text-danger"></div>
 
-    <div class="form-group">
-        <label asp-for="Method"></label>
-        <input asp-for="Method" class="form-control" placeholder="e.g., cash, card" />
-    </div>
+        <form asp-action="AddPayment" method="post" class="form">
+            <div class="form-group">
+                <label asp-for="MemberId">Member</label>
+                <select asp-for="MemberId" asp-items="ViewBag.Members" class="form-control">
+                    <option value="">-- Select Member --</option>
+                </select>
+                <span asp-validation-for="MemberId" class="text-danger"></span>
+            </div>
 
-    <div class="form-group">
-        <label asp-for="PaymentDate"></label>
-        <input asp-for="PaymentDate" class="form-control" type="datetime-local"
-            value="@Model.PaymentDate.ToString("yyyy-MM-ddTHH:mm")" />
-        <span asp-validation-for="PaymentDate" class="text-danger"></span>
-    </div>
+            <div class="form-group">
+                <label asp-for="Amount"></label>
+                <input asp-for="Amount" class="form-control" />
+                <span asp-validation-for="Amount" class="text-danger"></span>
+            </div>
 
-    <button type="submit" class="btn btn-success mt-2">Record</button>
-    <a asp-action="Payments" class="btn btn-secondary mt-2">Cancel</a>
-</form>
+            <div class="form-group">
+                <label asp-for="Method"></label>
+                <input asp-for="Method" class="form-control" placeholder="e.g., cash, card" />
+                <span asp-validation-for="Method" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="PaymentDate"></label>
+                <input asp-for="PaymentDate" class="form-control" type="datetime-local"
+                       value="@Model.PaymentDate.ToString("yyyy-MM-ddTHH:mm")" />
+                <span asp-validation-for="PaymentDate" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="form-submit-btn">Record</button>
+            <a asp-action="Payments" class="login-button">Cancel</a>
+        </form>
+    </div>
+</div>
 
 @section Scripts {
     @{

@@ -136,21 +136,6 @@ namespace ClubActivityManager.Controllers
         [HttpPost]
         public async Task<IActionResult> AddPayment(Payment payment)
         {
-            Console.WriteLine("POST triggered");
-            foreach (var key in Request.Form.Keys)
-            {
-                Console.WriteLine($"{key}: {Request.Form[key]}");
-            }
-
-            if (!ModelState.IsValid)
-            {
-                Console.WriteLine("ModelState is invalid");
-                foreach (var modelError in ModelState)
-                {
-                    Console.WriteLine($"{modelError.Key}: {string.Join(", ", modelError.Value.Errors.Select(e => e.ErrorMessage))}");
-                }
-            }
-
             if (ModelState.IsValid)
             {
                 _context.Payments.Add(payment);
@@ -158,13 +143,13 @@ namespace ClubActivityManager.Controllers
                 return RedirectToAction(nameof(Payments));
             }
 
-            foreach (var key in Request.Form.Keys)
-            {
-                Console.WriteLine($"{key} = {Request.Form[key]}");
-            }
+            
+            var users = await _userManager.Users.ToListAsync();
+            ViewBag.Members = new SelectList(users, "Id", "UserName", payment.MemberId);
 
-            ViewBag.Members = new SelectList(await _userManager.Users.ToListAsync(), "Id", "UserName");
             return View(payment);
         }
+
+
     }
 }
