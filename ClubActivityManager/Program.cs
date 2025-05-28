@@ -1,4 +1,5 @@
-using ArtClubApp.Data;
+﻿using ArtClubApp.Data;
+using ClubActivityManager.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -31,6 +32,7 @@ using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
     var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
     string[] roles = { "Admin", "Member" };
 
@@ -61,12 +63,27 @@ using (var scope = app.Services.CreateScope())
         if (result.Succeeded)
         {
             await userManager.AddToRoleAsync(newAdmin, "Admin");
+            adminUser = newAdmin; // update reference for use outside
         }
         else
         {
             foreach (var error in result.Errors)
                 Console.WriteLine(error.Description);
         }
+    }
+
+    // ✅ Now this will run regardless of whether admin was just created or already existed
+    if (adminUser != null && !context.Payments.Any())
+    {
+        context.Payments.Add(new Payment
+        {
+            MemberId = adminUser.Id,
+            Amount = 50.00m,
+            PaymentDate = DateTime.UtcNow,
+            Method = "cash"
+        });
+
+        await context.SaveChangesAsync();
     }
 }
 
